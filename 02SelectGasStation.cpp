@@ -5,7 +5,6 @@ using namespace std;
 //实现函数int selectGasStation(int a[], int g[], int n)，如果存在满足条件的加油站，返回该加油站的序号(0-based)。否则返回-1。
 //提示：n可能达到10^6，O(n^2)的枚举算法会超出时间限制。
 
-
 int selectGasStation(const vector<int> &a, const vector<int> &g) {
     int i = 0;
     int head = 0;
